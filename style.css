@@ -42,7 +42,7 @@ body.comfort {
       rgba(43, 18, 63, 0.75),
       rgba(43, 18, 63, 0.85)
     ),
-    url("bts-hero.jpg");
+    url("bts-group-1.jpg");
 
   background-size: cover;
   background-position: center top; 
@@ -137,6 +137,7 @@ footer {
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
 
 
 
