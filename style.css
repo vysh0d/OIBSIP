@@ -42,10 +42,10 @@ body.comfort {
       rgba(43, 18, 63, 0.75),
       rgba(43, 18, 63, 0.85)
     ),
-    url("bts-group-1.jpg");
+    url("bts-hard.jpg");
 
   background-size: cover;
-  background-position: center bottom; 
+  background-position: center top; 
   background-attachment: fixed;
 
   display: flex;
@@ -137,6 +137,7 @@ footer {
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
 
 
 
