@@ -45,7 +45,7 @@ body.comfort {
     url("bts-group-1.jpg");
 
   background-size: cover;
-  background-position: center center; 
+  background-position: center bottom; 
   background-attachment: fixed;
 
   display: flex;
@@ -137,6 +137,7 @@ footer {
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
 
 
 
