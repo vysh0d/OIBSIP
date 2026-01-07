@@ -37,13 +37,20 @@ body.comfort {
 
 .hero {
   min-height: 100vh;
+  background:
+    linear-gradient(rgba(43, 18, 63, 0.85), rgba(43, 18, 63, 0.85)),
+    url("bts-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.hero h1 {
+h1 {
   font-size: 4rem;
 }
 
@@ -80,6 +87,7 @@ footer {
   padding: 40px;
   opacity: 0.7;
 }
+
 
 
 
