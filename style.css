@@ -117,6 +117,17 @@ footer {
   opacity: 0.7;
 }
 
+.member-card .emotion {
+  display: none;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
+.member-card.active .emotion {
+  display: block;
+}
+
 
 
 
