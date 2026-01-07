@@ -39,7 +39,7 @@ body.comfort {
   min-height: 100vh;
   background:
     linear-gradient(rgba(43, 18, 63, 0.85), rgba(43, 18, 63, 0.85)),
-    url("bts-hero.jpg");
+    url("bts-group-1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -87,6 +87,7 @@ footer {
   padding: 40px;
   opacity: 0.7;
 }
+
 
 
 
