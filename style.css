@@ -1,1 +1,84 @@
+:root {
+  --dark-purple: #2b123f;
+  --light-purple: #e6d9ff;
+  --accent: #b58cff;
+  --text-light: #f5f2fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--dark-purple);
+  color: var(--text-light);
+  transition: background 0.6s ease, color 0.6s ease;
+}
+
+body.comfort {
+  background: var(--light-purple);
+  color: #2b123f;
+}
+
+#comfortBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.section {
+  padding: 80px 15%;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.member-card {
+  padding: 30px;
+  background: rgba(255,255,255,0.1);
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.member-card:hover {
+  transform: translateY(-8px);
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  opacity: 0.7;
+}
+
 
