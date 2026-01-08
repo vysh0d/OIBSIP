@@ -30,4 +30,27 @@ function toggleText(card) {
   card.classList.toggle("active");
 }
 
+// ARMY Quotes Slideshow
+const armyQuotes = [
+  "Their music stayed with me when everything else felt distant.",
+  "They reminded me that it was okay to feel lost sometimes.",
+  "BTS helped me through so many things in my life and i can never say thank you enough."
+  "BTS made me feel understood without needing explanations.",
+  "Their words felt like comfort on days I couldn’t explain myself.",
+  "They taught me that moving slowly is still moving forward.",
+  "It's the connection we can't explain.",
+  "Not just any other group, it's a family.",
+  "BTS is the only one who went down into my depths and taught me to 'LOVE MYSELF', that was the word i wanted to hear for so long.",
+  "It feels like my world is suddenly light up, BTS hit me like a ray of sun in the darkest night.",
+  "They are my happiness that has no ending. I am lucky to be a part of this beautiful journey. I love being an ARMY."
+];
+
+let armyIndex = 0;
+const armyQuoteElement = document.getElementById("armyQuote");
+
+setInterval(() => {
+  armyIndex = (armyIndex + 1) % armyQuotes.length;
+  armyQuoteElement.textContent = `“${armyQuotes[armyIndex]}”`;
+}, 4000);
+
 
