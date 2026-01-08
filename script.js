@@ -1,14 +1,4 @@
-// Comfort Mode
-const comfortBtn = document.getElementById("comfortBtn");
-
-comfortBtn.addEventListener("click", () => {
-  document.body.classList.toggle("comfort");
-  comfortBtn.textContent = document.body.classList.contains("comfort")
-    ? "Exit Comfort Mode"
-    : "Enter Comfort Mode 💜";
-});
-
-// Quotes
+// REASSURANCE QUOTES BUTTON
 const quotes = [
   "It’s okay to stop / There’s no need to run without even knowing the reason. — Paradise",
   "The morning will come again / No darkness, no season can last forever. — Spring Day",
@@ -21,20 +11,26 @@ const quotes = [
   "Maybe I made a mistake yesterday, but yesterday’s me is still me. I am who I am today, with all my faults. — Answer: Love Myself"
 ];
 
-document.getElementById("quoteBtn").addEventListener("click", () => {
-  const random = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quote").textContent = quotes[random];
-});
+const quoteBtn = document.getElementById("quoteBtn");
+const quoteText = document.getElementById("quote");
 
+if (quoteBtn && quoteText) {
+  quoteBtn.addEventListener("click", () => {
+    const random = Math.floor(Math.random() * quotes.length);
+    quoteText.textContent = quotes[random];
+  });
+}
+
+// MEMBER TOGGLE (if still used elsewhere)
 function toggleText(card) {
   card.classList.toggle("active");
 }
 
-// ARMY Quotes Slideshow
+// ARMY QUOTES SLIDESHOW
 const armyQuotes = [
-  "Their music stayed with me when everything else felt distant.",
+"Their music stayed with me when everything else felt distant.",
   "They reminded me that it was okay to feel lost sometimes.",
-  "BTS helped me through so many things in my life and i can never say thank you enough."
+  "BTS helped me through so many things in my life and i can never say thank you enough.",
   "BTS made me feel understood without needing explanations.",
   "Their words felt like comfort on days I couldn’t explain myself.",
   "They taught me that moving slowly is still moving forward.",
@@ -48,9 +44,9 @@ const armyQuotes = [
 let armyIndex = 0;
 const armyQuoteElement = document.getElementById("armyQuote");
 
-setInterval(() => {
-  armyIndex = (armyIndex + 1) % armyQuotes.length;
-  armyQuoteElement.textContent = `“${armyQuotes[armyIndex]}”`;
-}, 4000);
-
-
+if (armyQuoteElement) {
+  setInterval(() => {
+    armyIndex = (armyIndex + 1) % armyQuotes.length;
+    armyQuoteElement.textContent = `“${armyQuotes[armyIndex]}”`;
+  }, 4000);
+}
