@@ -138,6 +138,17 @@ footer {
   margin-bottom: 10px;
 }
 
+.song-link {
+  color: #c9b6ff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201,182,255,0.6);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.song-link:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
 
 
 
