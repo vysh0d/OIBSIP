@@ -42,11 +42,23 @@ const armyQuotes = [
 ];
 
 let armyIndex = 0;
-const armyQuoteElement = document.getElementById("armyQuote");
 
-if (armyQuoteElement) {
-  setInterval(() => {
+const armyQuoteElement = document.getElementById("armyQuote");
+const prevBtn = document.getElementById("prevQuote");
+const nextBtn = document.getElementById("nextQuote");
+
+function updateArmyQuote() {
+  armyQuoteElement.textContent = `“${armyQuotes[armyIndex]}”`;
+}
+
+if (prevBtn && nextBtn && armyQuoteElement) {
+  prevBtn.addEventListener("click", () => {
+    armyIndex = (armyIndex - 1 + armyQuotes.length) % armyQuotes.length;
+    updateArmyQuote();
+  });
+
+  nextBtn.addEventListener("click", () => {
     armyIndex = (armyIndex + 1) % armyQuotes.length;
-    armyQuoteElement.textContent = `“${armyQuotes[armyIndex]}”`;
-  }, 4000);
+    updateArmyQuote();
+  });
 }
