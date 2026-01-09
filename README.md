@@ -24,4 +24,4 @@ As part of the Oasis Infobyte Web Development & Design Internship (Level 2 – T
 This project helped me improve my understanding of front-end development, design consistency, and project structuring. It also enhanced my confidence in building and hosting complete web projects independently.
 
 ## Live Demo
-GitHub Pages Link: https://vysh0d.github.io/OIBSIP/
+GitHub Pages Link: https://vysh0d.github.io/OIBSIP_WebDevelopmentAndDesign_Task2/
