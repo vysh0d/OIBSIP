@@ -235,20 +235,21 @@ footer {
 .concert-break {
   margin: 100px 0;
   display: flex;
+   min-height: 420px;
   justify-content: center;
 }
 
 .concert-break img {
   width: 85%;
   max-width: 1100px;
-  height: 420px; 
-  position: center top;
-  object-fit: cover;          
+
+  height: auto;             
+  max-height: 520px;         
+
+  object-fit: contain;       
   border-radius: 30px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
-
-
 
 
 
