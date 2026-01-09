@@ -19,10 +19,11 @@ body {
 }
 
 body.light {
-  --bg-color: #f6f3ff;
-  --text-color: #2b123f;
-  --card-bg: rgba(0, 0, 0, 0.05);
+  --bg-color: #f3effa;      
+  --text-color: #2b123f;   
+  --card-bg: rgba(43, 18, 63, 0.06);
 }
+
 
 .hero {
   min-height: 100vh;
@@ -42,6 +43,20 @@ body.light {
   align-items: center;
 
   text-align: center;
+}
+
+body.light .hero {
+  background:
+    linear-gradient(
+      rgba(243, 239, 250, 0.85),
+      rgba(243, 239, 250, 0.9)
+    ),
+    url("bts-hero.jpg");
+}
+
+.hero h1,
+.hero .tagline {
+  color: #ffffff;
 }
 
 .hero-content {
@@ -184,6 +199,7 @@ footer {
 .theme-toggle:hover {
   opacity: 1;
 }
+
 
 
 
