@@ -1,4 +1,4 @@
-<img width="943" height="911" alt="image" src="https://github.com/user-attachments/assets/fa222b67-2f57-4506-8708-e3df03745aff" /># BTS Tribute Page – Web Development & Design Task
+# BTS Tribute Page – Web Development & Design Task
 
 ## Objective
 The objective of this task was to design and develop a tribute webpage for a person or group I admire, using basic web technologies while focusing on layout, design, and user experience.
