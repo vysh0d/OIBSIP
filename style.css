@@ -82,7 +82,23 @@ h1 {
 }
 
 .section {
-  padding: 80px 15%;
+  padding: 100px 15%;
+}
+
+.section + .section {
+  margin-top: 40px;
+}
+
+.section p {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 1.8;
+  max-width: 900px;
+}
+
+.section h2 {
+  margin-bottom: 35px;
+  letter-spacing: 1px;
 }
 
 .song-link {
@@ -177,6 +193,36 @@ footer {
   line-height: 1.8;
 }
 
+.reassurance-wrap {
+  margin-top: 50px;
+}
+
+.reassurance-btn {
+  background: rgba(181, 140, 255, 0.15);
+  color: #f5f2fa;
+  border: 1px solid rgba(181, 140, 255, 0.4);
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reassurance-btn:hover {
+  background: rgba(181, 140, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+#quote {
+  margin-top: 25px;
+  font-style: italic;
+  opacity: 0.9;
+  max-width: 700px;
+}
+
+.members {
+  margin-top: 80px;
+}
 
 
 
