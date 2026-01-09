@@ -241,12 +241,13 @@ footer {
 .concert-break img {
   width: 85%;
   max-width: 1100px;
-  height: 420px; 
+  height: 460px; 
   position: center top;
   object-fit: cover;          
   border-radius: 30px;
   opacity: 0.9;
 }
+
 
 
 
