@@ -224,6 +224,19 @@ footer {
   margin-top: 80px;
 }
 
+.concert-break {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.concert-break img {
+  width: 85%;
+  max-width: 1100px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
 
 
 
