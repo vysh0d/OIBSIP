@@ -82,7 +82,15 @@ h1 {
 }
 
 .section {
-  padding: 100px 15%;
+  padding: 80px 15%;
+}
+
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+.section h2 {
+  margin-top: 0;
 }
 
 .section + .section {
@@ -238,22 +246,5 @@ footer {
   border-radius: 30px;
   opacity: 0.9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
